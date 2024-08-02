@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="microProject2.css">
+    <link href='https://fonts.googleapis.com/css?family=Delius Unicase' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- <style>
+        .downArrow{
+            border: solid #ffffff;
+            border-width: 0 3px 3px 0;
+            display: inline-block;
+            padding: 3px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+        .container {
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        .bar1, .bar2, .bar3 {
+            width: 35px;
+            height: 5px;
+            background-color: #333;
+            margin: 6px 0;
+            transition: 0.4s;
+        }
+
+        .change .bar1 {
+            transform: translate(0, 11px) rotate(-45deg);
+        }
+
+        .change .bar2 {opacity: 0;}
+
+        .change .bar3 {
+            transform: translate(0, -11px) rotate(45deg);
+        }
+    </style> -->
+</head>
+<body>
+    <img class="chatBot" src="./asset/Group 2.png">
+    <img class="socialMedia" src="./asset/Frame 2.png" alt="social media images">
+<!------------ header of the page ------------->
+    <div id="header">
+        <p class="dapprLogo">Dappr</p>
+        <div class="navigator">
+            <div class="Home">Home</div>
+            <div class="About Us">About Us</div>
+            <div class="Information">Information</div>
+            <div class="More">More <i class="downArrow"></i></div>
+        </div>
+        <form class="searchbar">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+        <!-- <div class="menu">
+            <img src="./asset/Vector.png" alt="menu">
+        </div> -->
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+<!------------------- upper-body ----------------------------------->
+
+    <div class="upperBody">
+        <img class="coding-image" src="./asset/image 4.png" alt="coding-image">
+        <input class="text" name="text" placeholder="It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a ......" >
+        
+    </div>
+    
+
+<!-------------------- mid-body ------------------------------------->
+
+    <div class="midBody">
+        <div class="firstCard">
+            Total Question’s<br>
+            200,000
+        </div>
+        <div class="secondCard">
+            Total Answer’s<br>
+            105,000
+        </div>
+        <div class="thirdCard">
+            Participated<br>
+            10,000
+        </div>
+        <div class="fourthCard">
+            Total Passed<br>
+            6,000
+        </div>
+
+    </div>
+<!------------------------ end-body ----------------------------->
+
+    <div class="background">
+        <div class="left">
+            <div class="yourInfo">YOUR INFO</div>
+            <div class="bookmark">BOOKMARK</div>
+            <div class="setting">SETTING</div>
+        </div>
+        <div class="right">
+            <h1>Your information</h1>
+            <p><b>Name</b>  :  Rohit Singh</p>
+            <p><b>Email</b>  :  rohit@gmail.com</p>
+            <p><b>Phone</b>  :  +91 7080314232</p>
+            <p><b>Marks</b>  :  500</p>
+
+            <button class="button">Next ---></button>
+        </div>
+    </div>
+<script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+</script>
+</body>
+</html>
